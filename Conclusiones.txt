@@ -1,0 +1,3 @@
+En este Ejercicio se utilizo el framework serenity de esta forma se pudeo completar el flujo solocitado de manera correcta hasta llegar a la pantalla indicada
+llegando asi a cumplir de forma mas corta y rapida el flujo del software a evaluar, de esta manera no se debe repetir el flujo manualmente varias veces sino
+que el mismo se completara de forma automatica.
