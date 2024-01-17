@@ -1,7 +1,7 @@
 package co.com.ejercicio.software.navigate;
 
-import net.serenitybdd.core.pages.PageObject;
-import net.thucydides.core.annotations.DefaultUrl;
+import net.serenitybdd.annotations.DefaultUrl;
+import net.thucydides.core.pages.PageObject;
 
 @DefaultUrl("https://www.saucedemo.com/")
 public class OpenPage extends PageObject {
