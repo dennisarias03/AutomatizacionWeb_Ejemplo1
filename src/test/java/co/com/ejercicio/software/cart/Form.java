@@ -58,4 +58,9 @@ public class Form {
         return Click.on(Formulario.FINISH);
     }
 
+    public static Performable messageComplete() {
+
+      return Click.on(Complete.COMPLETE_HEADER);
+    }
+
 }
