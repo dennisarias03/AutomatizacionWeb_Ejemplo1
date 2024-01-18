@@ -1,3 +1,21 @@
-En este Ejercicio se utilizo el framework serenity de esta forma se pudeo completar el flujo solocitado de manera correcta hasta llegar a la pantalla indicada
-llegando asi a cumplir de forma mas corta y rapida el flujo del software a evaluar, de esta manera no se debe repetir el flujo manualmente varias veces sino
-que el mismo se completara de forma automatica.
+1. En este Ejercicio se utilizo el framework serenity con screenplay de esta forma se pudo completar el flujo solocitado de manera correcta hasta llegar a la pantalla final donde se hace una comparativa que el mensaje recidibo sea igual al texto "Thank you for your order!"
+
+En el feature tenemos la  siguiente estructura:
+
+  @buyProducts: Usamos esta etiqueta o anotación que podría utilizarse para agrupar o etiquetar las pruebas.
+
+  Feature: Test Cart: Define el nombre del feature, que en este caso es "Test Cart" dado que se debe agregar al carrit de compras.
+
+  Scenario Outline: Añadir 2 productos: Comienza la definición de un escenario de prueba. Es un escenario de contorno que puede ejecutarse varias veces con diferentes conjuntos de datos.
+
+2. Los valores entre corchetes angulares (<user>, <pass>, etc.) son parámetros que se reemplazarán con los valores específicos proporcionados en la tabla Examples, esta manera no se debe repetir el flujo manualmente varias veces sino que se definen los valores en los Examples para que el flujo se completara de forma automatica.
+
+3. Los reportes se generan con la libreria propia de Serenity este reporte es completo, intuitivo y adicionalemnte hace captura de pantallas de la ejecucion esto podemos configurar en el archivo serenity.conf "take.screenshots".
+
+4. En el archivo serenity.conf pondremos las configuraciones globales de serenity:
+
+  encoding = "UTF-8": Configura la codificación de caracteres a UTF-8 para manejar caracteres especiales.
+
+  compress.filenames = true: Habilita la compresión de nombres de archivos, lo que puede ser útil para reducir el espacio ocupado por los archivos de resultados de Serenity.
+
+  take.screenshots = FOR_EACH_ACTION: Indica que se deben tomar capturas de pantalla después de cada acción realizada en la prueba. Esto proporciona una mayor visibilidad sobre el estado de la aplicación en diferentes puntos de la ejecución.
