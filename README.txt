@@ -1,4 +1,4 @@
-## Tarea 1
+## Ejercicio E2E
 Realizar una prueba funcional automatizada (Prueba E2E) de un flujo de compra en la página
 https://www.saucedemo.com/ que incluya:
 • Autenticarse con el usuario: standard_user y password: secret_sauce
